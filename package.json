@@ -1,0 +1,23 @@
+{
+  "name": "e3count",
+  "version": "1.0.0",
+  "description": "E3 Count discord WebHookBot",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kajj8808/E3Count.git"
+  },
+  "author": "sss003366@naver.com -kajj8808",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kajj8808/E3Count/issues"
+  },
+  "homepage": "https://github.com/kajj8808/E3Count#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "node-schedule": "^2.0.0"
+  }
+}
